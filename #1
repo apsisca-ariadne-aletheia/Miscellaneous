@@ -4,7 +4,7 @@ t = turtle.Turtle()
 t.speed(0)
 t.hideturtle()
 turtle.bgcolor("black")
-colors = ["red", "orange", "yellow", "green"]
+colors = ["offwhite", "pink", "rebeccapurple", "indianred"]
 
 for i in range(36):
     t.color(colors[i % 4])
